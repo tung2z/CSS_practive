@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  <title>LoginForm</title>
+  <link rel="stylesheet" href="./css/loginForm.css">
+</head>
+<body>
+  <div class="wrapper">
+    <form action="" class="loginForm">
+      <div class="loginHeader">
+        <h2>Log in</h2>
+        <p>Log in with your data that you entered during your registration.</p>
+      </div>
+      <div class="loginBody">
+        <div class="container inputEmail">
+          <label for="email">Your e-mail</label>  
+          <input type="text" id="email" class="textInput email" placeholder="name@domain.com">
+        </div>
+        <div class="container inputPassword">
+          <label for="password">Password</label>
+          <input type="password" id="password" class="textInput password" placeholder="at least 8 character">
+        </div>
+        <div class="container keepLogin">
+          <input type="checkbox" id="keepLogin" class="keepLoginBtn">
+          <label for="keepLogin">Keep me logged in</label>
+        </div>
+        <div class="container loginBtn">
+          <input type="button" value="Log In" class="btn">
+        </div>
+        <div class="container forgotPass">
+          <p class="">Don't have an account? <a href="#" class="link">Sign up</a></p>
+          <a href="#" class="link">Forgot password?</a>
+        </div>
+      </div>
+    </form>
+    <form action="" class="contextForm">
+      <div class="contextBody">
+        <div class="container">
+          <img src="./image/user.png" alt="user" class="image infoImage"> 
+          <div class="info">
+            <h4>Frank Boehm</h4>
+            <p>Tenant</p>
+          </div>
+        </div>
+        <div class="container">
+          <img src="./image/email.png" alt="email" class="image">
+          <p>nadine.m@gmail.com</p>
+        </div>
+        <div class="container">
+          <img src="./image/phone.png" alt="phone" class="image">
+          <p>+84 336 658 794</p>
+        </div>
+        <div class="container">
+          <img src="./image/address.png" alt="address" class="image">
+          <p>Truong Dinh, Ha Noi</p>
+        </div>
+        <input type="button" value="Show details" class="btn contextBtn">
+      </div>
+      <div class="contextFooter">
+        <h3>Keeping the overview</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Tenetur, facilis asperiores nobis a eius blanditiis vitae eaque minima.
+          Minus, voluptatum.
+        </p>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>

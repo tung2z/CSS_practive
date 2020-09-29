@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgb(214, 204, 223);
+}
+ 
+.wrapper {
+  display: grid;
+  grid-template-columns: 50% auto;
+  
+  margin: 150px auto;
+  border: 10px solid rgb(216, 188, 241);
+  border-radius: 15px;
+  width: fit-content;
+
+}
+
+.loginForm {
+  display: grid;
+  grid-template-rows: 100px auto;
+  padding: 50px 80px;
+  background-color: #fff;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.loginForm .container {
+  margin: 30px 0  ;
+}
+
+.textInput {
+  width: 100%;
+  padding: 10px 15px;
+  margin-top: 5px;
+  border: 1px solid rgb(202, 202, 202);
+  border-radius: 5px;
+}
+
+
+.btn {
+  width: 100%;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: blueviolet;
+  color: #f5f3f4;
+}
+
+.link {
+  color: blueviolet;
+  text-decoration: none;
+}
+
+.forgotPass {
+  text-align: center;
+}
+
+.contextForm {
+  display: grid;
+  grid-template-rows: 65% auto;
+  padding: 50px 100px;
+  background-color: rgb(83, 33, 199);
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.contextBody {
+  width: fit-content;
+  height: fit-content;
+  background-color: #f5f3f4;
+  padding: 25px 50px 25px 25px;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.contextForm .container {
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.image {
+  width: 25px;
+  padding-right: 5px;
+}
+
+.infoImage {
+  width: 35px;
+  margin-right: 5px;
+}
+
+.contextBtn {
+  margin-top: 5px;
+  background-color: #b8b6b7;
+}
+
+.contextFooter {
+  width: 300px;
+  text-align: center;
+  margin-left: 35px;
+  margin-top: 30px;
+  color: #f5f3f4;
+}
+
+.contextFooter p {
+  margin-top: 10px;
+  color: #b8b6b7;
+}
