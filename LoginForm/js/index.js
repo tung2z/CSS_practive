@@ -6,3 +6,5 @@ for (let index = 0; index < array.length; index++) {
 }
 
 let arrPlus = arrs.map((arr) => arr++);
+
+import moduleName from "module";
