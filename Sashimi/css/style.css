@@ -1,0 +1,55 @@
+.header {
+  margin-top: 18rem;
+}
+
+.header .header1,
+.header .header2 {
+  font-family: "Allura", cursive;
+  font-family: "Caveat", cursive;
+  font-size: 5rem;
+  letter-spacing: 0.4rem;
+}
+
+.header .header3 {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+.header .header3 span {
+  font-family: "Allura", cursive;
+  font-weight: 500;
+  font-size: 2rem;
+  text-transform: capitalize;
+  margin-right: 1rem;
+}
+
+.image {
+  background-image: url(../img/sashimi.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.time {
+  margin-left: 2.5rem;
+}
+.time h3 {
+  margin-bottom: 0.5rem;
+}
+
+.people {
+  margin-left: 2.5rem;
+}
+.people h3 {
+  margin-bottom: 0.5rem;
+}
+
+.content h3 {
+  margin-bottom: 1rem;
+}
+
+.content ul {
+  list-style-type: none;
+  line-height: 20px;
+}
