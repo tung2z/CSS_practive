@@ -1,0 +1,14 @@
+$theme-colors: (
+  "primary": #0074d9,
+  "danger": #ff4136,
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+.container {
+  margin-top: 100px;
+}
+
+.input[type="email"] {
+  width: 80px;
+}

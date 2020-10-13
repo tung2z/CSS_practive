@@ -1,0 +1,19 @@
+@mixin FlexTest($direction) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: $direction;
+  height: 10vh * 10;
+}
+
+header {
+  background-color: lightblue;
+  @include FlexTest(column);
+  button {
+    background: $primaryBtn;
+    color: $primaryColor;
+    &:hover {
+      background: #ddadda;
+    }
+  }
+}
